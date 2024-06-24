@@ -23,6 +23,10 @@ body {
     cursor: pointer;
 }
 
+h2{
+    text-align: center;
+}
+
 .inner-container {
     background-color: rgb(104, 196, 166);
     margin-top: 2%;
@@ -70,6 +74,15 @@ body {
 
 .total {
     margin-left: 5%;
+}
+
+.time{
+    margin-left: 5%;
+    background-color: beige;
+    display:inline;
+    color: rgb(181, 49, 49);
+    padding: 12px;
+
 }
 
 #gameStatus{
