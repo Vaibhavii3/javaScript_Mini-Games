@@ -30,5 +30,5 @@ The Hitting Game is a simple browser-based game where an alien image moves aroun
 3. Click on the alien to score points. Each click increases the total score by 1.
 4. The game ends after 30 seconds, displaying a "Game Over" message along with the final score.
 
-![Game Screenshot](img/Game-Screenshot.png)
+![Game Screenshot](Hitting-Game/img/display.png)
 
