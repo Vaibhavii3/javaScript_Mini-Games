@@ -16,10 +16,10 @@ body {
 }
 
 .container h1{
-    color: rgb(201, 145, 72);
+    color: rgb(0, 0, 0);
     text-align: center;
     text-decoration: overline;
-    transition: transform ease 3s;
+    transition: transform ease 3ms;
     cursor: pointer;
 }
 
