@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1> Hitting Game </h1>
+        <div class="inner-container">
+
+            <div class="hitting-box">
+                <img src="img/alien.png" id="alien" class="alien" onclick="hitAlien()">
+            </div>
+
+            <div class="info-box">
+                <h2 id="gameStatus"></h2>
+                <button class="start-btn" onclick="startGame()">Start Game</button>
+                <h3 class="total">Total Score : <span id="totalHits"></span></h3>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

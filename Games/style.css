@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(241, 236, 236);
+}
+
+.container{
+    
+    margin: 50px;
+    padding: 40px;
+}
+
+.container h1{
+    color: rgb(201, 145, 72);
+    text-align: center;
+    text-decoration: overline;
+    transition: transform ease 3s;
+    cursor: pointer;
+}
+
+.inner-container {
+    background-color: rgb(104, 196, 166);
+    margin-top: 2%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hitting-box {
+    position: relative;
+    background-color: rgb(109, 80, 137);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 500px;
+    width: 800px;
+    overflow: hidden;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.alien {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.info-box {
+    width: 50%;
+}
+
+.start-btn{
+    background-color: beige;
+    color: #000000;
+    padding: 15px;
+    border: none;
+    border-radius: 2px;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.start-btn:hover{
+    background-color: rgb(98, 98, 71);
+    color: #fff;
+}
+
+.total {
+    margin-left: 5%;
+}
+
+#gameStatus{
+    margin-left: 5%;
+    margin-top: 2%;
+    color:rgb(241, 9, 9);
+}
